@@ -131,3 +131,17 @@ span.bottom {
 }
 
 /*Start of footer */
+footer {
+  padding-top: 5rem;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+#footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
