@@ -153,6 +153,10 @@ footer {
 
 /* Media for 1024px */
 @media only screen and (max-width: 1024px) {
+  section.image {
+   height: 22rem;
+  }
+
   .container {
    max-width: 100%;
   }
@@ -174,3 +178,9 @@ footer {
 }
 
 /* Media for 470px */
+@media only screen and (max-width: 470px) {
+  .bar {
+    display: none;
+  }
+
+}
