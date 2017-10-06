@@ -75,7 +75,11 @@ section.image {
   background-color: white;
 }
 
-/* information container */
+span.menu {
+  display: none;
+}
+
+/* information container examx, fittings, delivery */
 #information {
   display: flex;
   flex-direction: row;
@@ -146,3 +150,27 @@ footer {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+/* Media for 1024px */
+@media only screen and (max-width: 1024px) {
+  .container {
+   max-width: 100%;
+  }
+
+   #header {
+    margin: 0;
+  }
+
+  #banner {
+   padding-top: 5rem;
+  }
+
+  #banner span {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    background-color: white;
+  }
+
+}
+
+/* Media for 470px */
