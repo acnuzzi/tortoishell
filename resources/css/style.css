@@ -172,15 +172,87 @@ footer {
   #banner span {
     font-size: 1.33rem;
     padding: 0.75rem 4rem;
-    background-color: white;
   }
 
 }
 
 /* Media for 470px */
 @media only screen and (max-width: 470px) {
-  .bar {
+  .ban.container {
+    ;
+  }
+
+  section.image {
+   height: 17rem;
+  }
+
+  .left h4 {
     display: none;
   }
+
+  span.bar {
+    display: none;
+  }
+
+  span.menu {
+    display: flex;
+  }
+
+  #banner {
+   display: flex;
+   justify-content: center;
+   padding-top: 9rem;
+  }
+
+  .ban.container {
+    padding: 0;
+  }
+
+  #banner span {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  #information {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.77rem;
+  }
+
+  .fittings.block {
+    margin-top: 1.54rem;
+  }
+
+  #appointments {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cont {
+    align-items: center;
+    width: 100%;
+  }
+
+  .appointment.cont {
+   padding-top: 4rem;
+  }
+
+  span.top {
+    width: 100%;
+  }
+
+  span.bottom {
+    width: 100%;
+  }
+
+ #footer span {
+   display: none;
+ }
+
+#footer {
+ justify-content: center;
+}
 
 }
